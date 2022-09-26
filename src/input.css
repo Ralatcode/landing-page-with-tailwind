@@ -42,7 +42,7 @@ body {
 }
 
 .hamburger-bottom {
-    transform: translateY(-7px);
+    transform: translateY(14px);
 }
 
 @media (max-width: 576px) {
