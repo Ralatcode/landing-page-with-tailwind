@@ -22,7 +22,6 @@ body {
     margin-left: auto;
     transition: all 0.25s;
     position: relative;
-    cursor: pointer;
 }
 
 .hamburger-top,
@@ -45,6 +44,24 @@ body {
 
 .hamburger-bottom {
     transform: translateY(14px);
+}
+
+/* hamburger cross toggle */
+.open {
+    transform: translateY(0px);
+    transform: rotate(90deg);
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+    opacity: 0;
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
 }
 
 @media (max-width: 576px) {
