@@ -933,6 +933,7 @@ body {
 .hamburger {
   width: 24px;
   height: 24px;
+  margin-left: auto;
   transition: all 0.25s;
   position: relative;
   cursor: pointer;
@@ -945,7 +946,8 @@ body {
   top: 0;
   left: 0;
   width: 24px;
-  height: 3px;
+  height: 4px;
+  border-radius: 5px;
   background-color: #000;
   transform: rotate(0);
   transition: all 0.5s;
